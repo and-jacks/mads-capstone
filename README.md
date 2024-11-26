@@ -20,10 +20,7 @@ This project aims to predict **NYC transit ridership** using a combination of hi
   - **Data Dictionary** - Daily Summaries PDF - [Link to Data Dictionary](http://www.ncei.noaa.gov/pub/data/cdo/documentation/GHCND_documentation.pdf)
   - **NOAA Open Data Dissemination (NODD)** -- License Free for Public Use - [Link to NODD](https://www.noaa.gov/information-technology/open-data-dissemination)
 
-## 
--
-
-## Explanation
+## Data Processing and Modeling
 **Might be too large** just a though
 ```mermaid
 graph TB;
