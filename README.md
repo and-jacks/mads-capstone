@@ -31,7 +31,7 @@ graph TB;
     B --> B2[(Weather Data: weather_data_ny.csv)]:::file
     
     B1 --> C1[[Process Ridership Data: ridership_data.ipynb]]:::notebook
-    C1 --> D1[(Ridership Cleaned Data: ridership_long.pkl)]:::file
+    C1 --> D1[(Ridership Cleaned Data: ridership_long.csv)]:::file
     
     B2 --> C2[[Process Weather Data: weather_eda.ipynb]]:::notebook
     C2 --> D2[(Weather Cleaned Data: weather_data_cleaned.csv)]:::file
