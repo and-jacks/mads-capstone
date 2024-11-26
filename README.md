@@ -27,7 +27,7 @@ This project aims to predict **NYC transit ridership** using a combination of hi
 **Might be too large** just a though
 ```mermaid
 graph TB;
-    A([data]):::folder
+    A([Data Porcessing and Modeling]):::folder
     A --> B([Downloaded Raw Data]):::folder
     
     B --> B1[(Hourly Ridership Data: df_filled_22.pkl, df_filled_23.pkl)]:::file
@@ -43,6 +43,10 @@ graph TB;
     D2 --> E
     
     E --> F[(Final Merged Data: ridership_weather.csv)]:::file
+
+    F --> G[[RandomForest Model: RandomForest_model.ipynb]]:::notebook
+    G --> H1[(Predictions: predictions_ridership.csv)]:::file
+    G --> H2[(Station Metrics: stations_metrics.csv)]:::file
 
     classDef folder fill:#444444,stroke:#333,stroke-width:2px;
     classDef file fill:#336699,stroke:#333,stroke-width:2px;
