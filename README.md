@@ -69,7 +69,9 @@ pip install -r requirements.txt
 5. Open Notebook and run.
    - 5a. Run the eda_weather.ipynb notebook first.
    - 5b. Run the ridership_data_EDA.ipynb next; this  will export a large 600MB CSV file and place it in the cleaned_data directory. This file will be used in the next step.
-   - 6c. Run the ridership_wx.ipynb next to merge the datasets and output the final CSV file for modeling. this will create the ridership_weather.csv file.  Large file ~1GB
+   - 5c. Run the ridership_wx.ipynb next to merge the datasets and output the final CSV file for modeling. This will create the ridership_weather.csv file.  Large file ~1GB
+   - 5d. Run the RandomForest_model.ipynb to create the predictions and metrics CSV files in the predictions_metrics folder.  These files will be used for the visualizations.
+
    
 
 
