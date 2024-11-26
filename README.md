@@ -51,13 +51,13 @@ graph TB;
     classDef notebook fill:#8b4513,stroke:#333,stroke-width:2px;
 ```
 ## Getting Started
-**Prerequsites**
+**Prerequisites**
 1. Clone the repository:
 ```bash
 git clone https://github.com/and-jacks/mads-capstone.git
 ```
 2. Navigate to the cloned directory
-3. Create a Pyton envrionment in the working direcotry using [miniconda](https://docs.anaconda.com/miniconda/install/) (install if necessary) with Python Version 3.12.4 and activate it. 
+3. Create a Python environment in the working directory using [miniconda](https://docs.anaconda.com/miniconda/install/) (install if necessary) with Python Version 3.12.4 and activate it. 
 ```bash
 conda create -n mads python=3.12.4
 conda activate mads
@@ -66,7 +66,11 @@ conda activate mads
 ```bash
 pip install -r requirements.txt
 ```
-5. Open Notebook and run. 
+5. Open Notebook and run.
+   - 5a. Run the eda_weather.ipynb notebook first.
+   - 5b. Run the ridership_data_EDA.ipynb next; this  will export a large 600MB CSV file and place it in the cleaned_data directory. This file will be used in the next step.
+   - 6c. Run the ridership_wx.ipynb next to merge the datasets and output the final CSV file for modeling. this will create the ridership_weather.csv file.  Large file ~1GB
+   
 
 
 
