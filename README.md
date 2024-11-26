@@ -27,22 +27,26 @@ This project aims to predict **NYC transit ridership** using a combination of hi
 **Might be too large** just a though
 ```mermaid
 graph TB;
-    A[Modeling]
-    A --> B[Downloaded Raw Data]
+    A([data]):::folder
+    A --> B([Downloaded Raw Data]):::folder
     
-    B --> B1[Hourly Ridership Data df_filled_22.pkl df_filled_23.pkl]
-    B --> B2[Weather Data weather_data_ny.csv]
+    B --> B1[(Hourly Ridership Data: df_filled_22.pkl, df_filled_23.pkl)]:::file
+    B --> B2[(Weather Data: weather_data_ny.csv)]:::file
     
-    B1 --> C1[Process Ridership Data ridership_data.ipynb]
-    C1 --> D1[Ridership Cleaned Data ridership_long.csv]
+    B1 --> C1[[Process Ridership Data: ridership_data.ipynb]]:::notebook
+    C1 --> D1[(Ridership Cleaned Data: ridership_long.pkl)]:::file
     
-    B2 --> C2[Process Weather Data weather_eda.ipynb]
-    C2 --> D2[Weather Cleaned Data weather_data_cleaned.csv]
+    B2 --> C2[[Process Weather Data: weather_eda.ipynb]]:::notebook
+    C2 --> D2[(Weather Cleaned Data: weather_data_cleaned.csv)]:::file
     
-    D1 --> E[Merge Datasets ridership_weather.ipynb]
+    D1 --> E[[Merge Datasets: ridership_weather.ipynb]]:::notebook
     D2 --> E
+    
+    E --> F[(Final Merged Data: ridership_weather.csv)]:::file
 
-    E --> F[Final Merged Data ridership_weather.csv]
+    classDef folder fill:#444444,stroke:#333,stroke-width:2px;
+    classDef file fill:#336699,stroke:#333,stroke-width:2px;
+    classDef notebook fill:#8b4513,stroke:#333,stroke-width:2px;
 
 
 
