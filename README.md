@@ -8,7 +8,7 @@ This project aims to predict **NYC transit ridership** using a combination of hi
 
 - **Predict hourly transit ridership** for NYC subway stations.
 - Incorporate **weather data** to understand its impact on ridership.
-- Use **machine learning models** like Random Forest, time series, LSTM, and others.  add more--- for predictions.
+- Use **machine learning models** like Random Forest, time series, LSTM, and others for predictions.
 
 ## Data Sources
 - **New York Metropolitan Transportation Authority**
