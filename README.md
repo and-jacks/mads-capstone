@@ -49,6 +49,25 @@ graph TB;
     classDef folder fill:#444444,stroke:#333,stroke-width:2px;
     classDef file fill:#336699,stroke:#333,stroke-width:2px;
     classDef notebook fill:#8b4513,stroke:#333,stroke-width:2px;
+```
+## Getting Started
+**Prerequsites**
+1. Clone the repository:
+```bash
+git clone https://github.com/and-jacks/mads-capstone.git
+```
+2. Navigate to the cloned directory
+3. Create a Pyton envrionment in the working direcotry using [miniconda](https://docs.anaconda.com/miniconda/install/) (install if necessary) with Python Version 3.12.4 and activate it. 
+```bash
+conda create -n mads python=3.12.4
+conda activate mads
+```
+4. Install requirements.txt
+```bash
+pip install -r requirements.txt
+```
+5. Open Notebook and run. 
+
 
 
 
