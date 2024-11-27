@@ -46,6 +46,9 @@ graph TB;
     G --> H1[(Predictions: predictions_ridership.csv)]:::file
     G --> H2[(Station Metrics: stations_metrics.csv)]:::file
 
+      H1 --> J[[Visualizations]]:::notebook
+    H2 --> J
+
     classDef folder fill:#444444,stroke:#333,stroke-width:2px;
     classDef file fill:#336699,stroke:#333,stroke-width:2px;
     classDef notebook fill:#8b4513,stroke:#333,stroke-width:2px;
