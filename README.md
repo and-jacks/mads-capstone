@@ -1,12 +1,12 @@
-# NYC Transit Ridership Forecast Project
+# Predicting NYC Metro Ridership: Data-Driven Insights for Smarter City Planning
 
 ## Overview
 
-This project aims to predict **NYC transit ridership** using a combination of historical ridership data, **weather information**, and event data. It leverages machine learning models to forecast hourly ridership at various stations, providing insights into transit usage trends and aiding in resource planning.
+This project aims to predict **NYC transit ridership** using a combination of historical ridership data and **weather information**. It leverages machine learning models to forecast hourly ridership at various stations, providing insights into transit usage trends and aiding in resource planning.
 
 ### Project Goals
 
-- **Predict hourly transit ridership** for NYC subway stations.
+- **Predict hourly transit ridership** for NYC MTA subway stations.
 - Incorporate **weather data** to understand its impact on ridership.
 - Use **machine learning models** like Random Forest, time series, LSTM, and others for predictions.
 
@@ -69,6 +69,8 @@ conda activate mads
 ```bash
 pip install -r requirements.txt
 ```
+**Ridership predictions with weather data**
+
 5. Open Notebook and run.
    - 5a. Run the eda_weather.ipynb notebook first.
    - 5b. Run the ridership_data_EDA.ipynb next; this  will export a large 600MB CSV file and place it in the cleaned_data directory. This file will be used in the next step.
