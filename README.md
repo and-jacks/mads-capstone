@@ -12,6 +12,11 @@ This project aims to predict **NYC transit ridership** using a combination of hi
 - Use **machine learning models** like Random Forest, LSTM, and time series techniques for predictions.
 - Develop tools and visualizations to provide actionable insights for transit authorities and city planners.
 
+## Visualization of Planning Insights 
+<img src="images/planning_map.png" alt="Planning Map" width="600"/>
+
+The map above showcases planning insights derived from MTA ridership data, highlighting areas of high traffic and potential infrastructure needs.
+
 ---
 
 ## Data Sources
