@@ -33,7 +33,12 @@ The map above showcases planning insights derived from MTA ridership data, highl
 - **Weather Data:** Climate summaries for Central Park, NY, including temperature, precipitation, and extreme weather events.  
   [Link to Weather Data](https://www.ncdc.noaa.gov/cdo-web/datasets)  
   - [Data Dictionary](http://www.ncei.noaa.gov/pub/data/cdo/documentation/GHCND_documentation.pdf)  
-  - [NOAA Open Data Dissemination Licensing](https://www.noaa.gov/information-technology/open-data-dissemination)  
+  - [NOAA Open Data Dissemination Licensing](https://www.noaa.gov/information-technology/open-data-dissemination)
+ 
+### Trip Advisor API 
+  - API Access through Devloper Portal [Developer Portal](https://www.tripadvisor.com/developers)
+      - Developer account would need to be crated to obtain an API key.
+  - [Trip Advisor License](https://tripadvisor-content-api.readme.io/reference/terms-of-use)
 
 ### References
 1. Hightower, Ashley, et al. "A Comparison of Time Series Methods for Post-COVID Transit Ridership Forecasting." *Journal of Public Transportation*, vol. 26, 2024.  
