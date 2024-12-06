@@ -43,6 +43,12 @@ The map above showcases planning insights derived from MTA ridership data, highl
 ### References
 1. Hightower, Ashley, et al. "A Comparison of Time Series Methods for Post-COVID Transit Ridership Forecasting." *Journal of Public Transportation*, vol. 26, 2024.  
    [Read Article](https://doi.org/10.1016/j.jpubtr.2024.100097)
+   
+2.  Liu, J. (2023). "Analysis and prediction of subway ridership: Take a station in Hangzhou as an example." Highlights in Science, Engineering and Technology, 39(1), 315–320.  
+    [Read Article](https://doi.org/10.54097/hset.v39i.6547)
+
+4.  Gwon, S., Kim, H.-J., Lee, Y.-J., Kim, J.-E., & Cho, S. (2024). "Prediction of hourly subway ridership based on artificial intelligence algorithms using weather information." 2024 IEEE International Conference on Consumer Electronics (ICCE), 1–6.  
+    [Read Article](https://doi.org/10.1109/ICCE59016.2024.10444286)
 
 ---
 
