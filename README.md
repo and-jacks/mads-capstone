@@ -105,16 +105,16 @@ We implemented **LSTM neural networks** for time series forecasting, leveraging:
    pip install -r requirements.txt
    ```
 ### LSTM Forecasting
-1. Folder - EDA_LSTM
+Folder - EDA_LSTM
   - 1a. Run `Andrew_EDA_LSTM_Viz_Final_12.3.24.ipynb`
    
 ### Visualizations
-1. Folder - Visualization run
+Folder - Visualization run
   - 1a. Run `station_data.ipynb`
   - 1b. Run `trend_viz,ipynb`
 
 ### Random Forest Regressor Pipeline Steps (created but not fully utilized)
-1.  Folder - Modeling_preprocess_clean
+Folder - Modeling_preprocess_clean
   - 1a. Run `eda_weather.ipynb` to process weather data.
   - 1b. Run `ridership_data_EDA.ipynb` to preprocess ridership data (exports a ~600MB file).
   - 1c. Run `ridership_wx.ipynb` to merge datasets (outputs a ~1GB file).
