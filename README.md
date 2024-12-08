@@ -40,15 +40,22 @@ The map above showcases planning insights derived from MTA ridership data, highl
       - Developer account would need to be crated to obtain an API key.
   - [Trip Advisor License](https://tripadvisor-content-api.readme.io/reference/terms-of-use)
 
-### References
+---
+
+## References
+
 1. Hightower, Ashley, et al. "A Comparison of Time Series Methods for Post-COVID Transit Ridership Forecasting." *Journal of Public Transportation*, vol. 26, 2024.  
    [Read Article](https://doi.org/10.1016/j.jpubtr.2024.100097)
-   
-2.  Liu, J. (2023). "Analysis and prediction of subway ridership: Take a station in Hangzhou as an example." Highlights in Science, Engineering and Technology, 39(1), 315–320.  
-    [Read Article](https://doi.org/10.54097/hset.v39i.6547)
 
-4.  Gwon, S., Kim, H.-J., Lee, Y.-J., Kim, J.-E., & Cho, S. (2024). "Prediction of hourly subway ridership based on artificial intelligence algorithms using weather information." 2024 IEEE International Conference on Consumer Electronics (ICCE), 1–6.  
-    [Read Article](https://doi.org/10.1109/ICCE59016.2024.10444286)
+2. Mou, X. H., et al. (2023). "Prediction of Subway Ridership Using Deep Learning Algorithms." *2023 International Conference on Machine Learning and Artificial Intelligence (CMLAI)*, IEEE, 1–6.  
+   [Read Article](https://ieeexplore.ieee.org/document/10444286)
+
+3. Liu, Jingyi. (2023). "Analysis and Prediction of Subway Ridership: Take a Station in Hangzhou as an Example." *Highlights in Science, Engineering and Technology*, 39(1), 315–320.  
+   [Read Article](https://doi.org/10.54097/hset.v39i.6547)
+
+4. Park, Y., et al. (2022). "Machine Learning Approach for Study on Subway Passenger Flow." *Scientific Reports*, vol. 12, no. 2754.  
+   [Read Article](https://doi.org/10.1038/s41598-022-06767-7)
+
 
 ---
 
