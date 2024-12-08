@@ -150,37 +150,6 @@ Folder - Modeling_preprocess_clean
 ------------------------------------------------------
 
 
-## Data Processing and Modeling flow
-```mermaid
-graph TB;
-    A([Data Processing and Modeling]):::folder
-    A --> B([Downloaded Raw Data]):::folder
-    
-    B --> B1[(Hourly Ridership Data: df_filled_22.pkl, df_filled_23.pkl)]:::file
-    B --> B2[(Weather Data: weather_data_ny.csv)]:::file
-    
-    B1 --> C1[[Process Ridership Data: ridership_data.ipynb]]:::notebook
-    C1 --> D1[(Ridership Cleaned Data: ridership_long.csv)]:::file
-    
-    B2 --> C2[[Process Weather Data: weather_eda.ipynb]]:::notebook
-    C2 --> D2[(Weather Cleaned Data: weather_data_cleaned.csv)]:::file
-    
-    D1 --> E[[Merge Datasets: ridership_weather.ipynb]]:::notebook
-    D2 --> E
-    
-    E --> F[(Final Merged Data: ridership_weather.csv)]:::file
-
-    F --> G[[RandomForest Model: RandomForest_model.ipynb]]:::notebook
-    G --> H1[(Predictions: predictions_ridership.csv)]:::file
-    G --> H2[(Station Metrics: stations_metrics.csv)]:::file
-
-      H1 --> J[[Visualizations]]:::notebook
-    H2 --> J
-
-    classDef folder fill:#444444,stroke:#333,stroke-width:2px;
-    classDef file fill:#336699,stroke:#333,stroke-width:2px;
-    classDef notebook fill:#8b4513,stroke:#333,stroke-width:2px;
-```
 
 
 
